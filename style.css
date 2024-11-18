@@ -40,10 +40,29 @@ header{
     border: 2px solid black;
 }
 .inputs-estilos{
-    border: 2px solid rgb(27, 213, 213);
+    border: 2px solid rgb(27, 154, 213);
     border-radius: 12px;
     padding-left: 12px ;
     width: 100%;
     height: 2.3rem;
     outline: none;
+    background: rgba(255, 255, 255, 0.941);
+}
+main{
+    height: 130vh;
+}
+main .row{
+    height: 130vh;
+}
+.contenedor-formulario{
+    background-color: rgba(254, 253, 255, 0.501);
+    width: 80%;
+    padding: 40px;
+    border-radius: 10px;
+}
+.contenedor-formulario button{
+    margin-top: 15px;
+}
+label{
+    margin-top: 10px;
 }

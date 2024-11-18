@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
@@ -10,10 +11,11 @@
     <title>Pagina Inicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="row">
+            <div class="row container-fluid">
                 <div class="col-1">
                     <img class="imagen-logo" src="assets/logoVeterinaria.png" height="80">
                 </div>
@@ -52,14 +54,60 @@
         </nav>
     </header>
     <main>
-        <div class="row">
-            <div class="col-7 bordes">
-                hola
+        <div class="row container-fluid">
+            <div class="col-7 centrar-contenido">
+                <div class="contenedor-formulario">
+                    <h2>Registra a tu mascota</h2>
+                    <form>
+                        <label for="nombre-mascota">Nombre de la mascota:</label>
+                        <input type="text" class="inputs-estilos" id="nombre-mascota" name="nombre_mascota"
+                            placeholder="Escribe el nombre" required>
+
+                        <label for="sexo-mascota">Sexo de la mascota:</label>
+                        <select class="inputs-estilos" id="sexo-mascota" name="sexo_mascota" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="macho">Macho</option>
+                            <option value="hembra">Hembra</option>
+                        </select>
+
+                        <label for="raza-mascota">Raza:</label>
+                        <input type="text" class="inputs-estilos" id="raza-mascota" name="raza_mascota"
+                            placeholder="Escribe la raza" required>
+
+                        <label for="tamano-mascota">Tamaño de la mascota:</label>
+                        <select class="inputs-estilos" id="tamano-mascota" name="tamano_mascota" required>
+                            <option value="" disabled selected>Selecciona el tamaño</option>
+                            <option value="pequeno">Pequeño</option>
+                            <option value="mediano">Mediano</option>
+                            <option value="grande">Grande</option>
+                        </select>
+
+                        <label for="especie-mascota">Especie de la mascota:</label>
+                        <select class="inputs-estilos" id="especie-mascota" name="especie_mascota" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="perro">Perro</option>
+                            <option value="gato">Gato</option>
+                            <option value="ave">Ave</option>
+                            <option value="otro">Otro</option>
+                        </select>
+
+                        <label for="color-mascota">Color de la mascota:</label>
+                        <input type="text" class="inputs-estilos" id="color-mascota" name="color_mascota"
+                            placeholder="Escribe el color" required>
+
+                        <button type="submit" class="btn btn-primary margen-arriba">Registrar Mascota</button>
+                    </form>
+
+                </div>
             </div>
             <div class="col-5 bordes">
-                hola2
+               
             </div>
         </div>
     </main>
+    <footer>
+        hola
+    </footer>
 </body>
+
 </html>
