@@ -1,0 +1,49 @@
+body{
+    background: rgb(27, 213, 213);
+    padding: 0;
+    border: 0;
+}
+header{
+    background:white;
+}
+.centrar-contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-logo{
+    margin: 10px;
+    margin-left: 2rem;
+}
+.contenedor-ligas li{
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+.contenedor-ligas li a{
+    text-decoration: none;
+}
+.buscador-imagen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.contenedor-buscador{
+    width: 90%;
+    height: 100%;
+}
+.input-buscar{
+    width: 90%;
+}
+.bordes{
+    border: 2px solid black;
+}
+.inputs-estilos{
+    border: 2px solid rgb(27, 213, 213);
+    border-radius: 12px;
+    padding-left: 12px ;
+    width: 100%;
+    height: 2.3rem;
+    outline: none;
+}
